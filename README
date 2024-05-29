@@ -7,6 +7,8 @@ Requirements
 ------------
 In order to build st you need the Xlib header files.
 
+On FreeBSD:
+    pkg install pkgconf libXext libX11 libXft fontconfig freetype2
 
 Installation
 ------------
@@ -31,4 +33,3 @@ See the man page for additional details.
 Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
-
